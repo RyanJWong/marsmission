@@ -7,12 +7,16 @@ public class Controller {
 	 */
 	
 	/*
-	 * Class Variables
+	 * Class Constants
 	 * 
 	 */
+	public static String 	VERSION = "Version: 0.0.1";
 	
-	//Constructor
+	/*
+	 * Constructor
+	 */ 	
 	public Controller() {
+ 
 	}
 
 }
