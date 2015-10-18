@@ -1,6 +1,6 @@
 package marsmission;
 
-public class MainEngineModel extends EnginesModel { 
+public class ServiceModulePanelsModel {
 	/*
 	 * Class Instance Variables
 	 * 
@@ -15,7 +15,7 @@ public class MainEngineModel extends EnginesModel {
 	 * Construcutors
 	 * 
 	 */
-	public MainEngineModel() {
+	public ServiceModulePanelsModel() {
 	}
 
 }

@@ -1,6 +1,6 @@
 package marsmission;
 
-public class Controller {
+public class PayloadFaringModel extends CargoModuleModel {
 	/*
 	 * Class Instance Variables
 	 * 
@@ -10,13 +10,11 @@ public class Controller {
 	 * Class Constants
 	 * 
 	 */
-	public static String 	VERSION = "Version: 0.0.3";
 	
 	/*
 	 * Constructor
 	 */ 	
-	public Controller() {
- 
+	public PayloadFaringModel() {
 	}
 
 }

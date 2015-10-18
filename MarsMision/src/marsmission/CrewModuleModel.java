@@ -1,6 +1,6 @@
 package marsmission;
 
-public class CrewModuleModel {
+public class CrewModuleModel extends PayloadModel {
 	/*
 	 * Class Instance Variables
 	 * 

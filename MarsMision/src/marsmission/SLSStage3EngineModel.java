@@ -1,21 +1,19 @@
 package marsmission;
 
-public class ICPSModel {
+public class SLSStage3EngineModel extends Stage3EngineModel  {
 	/*
 	 * Class Instance Variables
 	 * 
 	 */
-	
 	/*
 	 * Class Constants
 	 * 
 	 */
-	
 	/*
 	 * Construcutors
 	 * 
 	 */
-	public ICPSModel() {
+	public SLSStage3EngineModel() {
 	}
 
 }

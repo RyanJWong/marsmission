@@ -1,13 +1,13 @@
 package marsmission;
 
-public class SLSModel {
+public class EnginesModel {
 	/*
 	 * Class Instance Variables
 	 * 
 	 */
-	SRBModel[]			solidFuelRockets; //stage 2
-	MainEngineModel		mainEngine; //stage 1
-	ICPSModel			icps; //stage 3
+	private SRBModel[]			solidFuelRockets; //stage 2
+	private MainEngineModel		mainEngine; //stage 1
+	private Stage3EngineModel 		stage3;       //stage 3
 	/*
 	 * Class Constants
 	 * 
@@ -19,7 +19,7 @@ public class SLSModel {
 	 * 
 	 */
 	
-	public SLSModel()
+	public EnginesModel()
 	{
 		solidFuelRockets = new SRBModel[SRB_ENGINES];
 		
@@ -28,6 +28,5 @@ public class SLSModel {
 		}
 		
 		mainEngine = new MainEngineModel();
-		icps	   = new ICPSModel();
 	}
 }
