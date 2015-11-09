@@ -14,7 +14,8 @@ public class PayloadFaringModel extends CargoModuleModel {
 	/*
 	 * Constructor
 	 */ 	
-	public PayloadFaringModel() {
+	public PayloadFaringModel(int type, String model, String organization) {
+		super(type, model, organization);
 	}
 
 }

@@ -1,33 +1,30 @@
 package marsmission;
 
 public class PayloadModel {
+
 	/*
 	 * Class Instance Variable
 	 */
-	private LaunchAbortSystemModel 		launchAbortSystemModel;
-	private CrewModuleModel				crewModule;
-	private SLSEngineModel			serviceModule;
-	private ServiceModulePanelsModel    serviceModulePanels;
-	private SpacecraftAdapterModel		spacecraftAdapter;
+	
+	private int 		type;
+	private String 		model;
+	private String		organization;	
 	/*
 	 * Class Constants
 	 */
 	
-	
+	public static final int CREW_PAYLOAD	=1;
+	public static final int CARGO_PAYLOAD	=2;
 	
 	/*
 	 * Constructors
 	 */
 	
-	public PayloadModel(LaunchAbortSystemModel launchAbortSystemModel, CrewModuleModel crewModule, SLSEngineModel serviceModule, ServiceModulePanelsModel serviceModulePanels, SpacecraftAdapterModel spacecraftAdapter){
-		this.launchAbortSystemModel 		= launchAbortSystemModel;
-		this.crewModule						= crewModule;
-		this.serviceModule					= serviceModule;
-		this.serviceModulePanels			= serviceModulePanels;
-		this.spacecraftAdapter 	  		 	= spacecraftAdapter;
-		
+	public PayloadModel(int type,String model, String organization){
+		this.type=type;
+		this.model			= model;
+		this.organization	= organization;
 
-		
 	}
 	
 }

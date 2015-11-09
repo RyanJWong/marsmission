@@ -14,7 +14,7 @@ public class FalconModel extends MainEngineModel {
 	/*
 	 * Constructor
 	 */ 	
-	public FalconModel() {
+	public FalconModel(int type, String model, String organization) {
+		super(type, model, organization);
 	}
-
 }

@@ -14,7 +14,9 @@ public class CargoModuleModel extends PayloadModel {
 	/*
 	 * Constructor
 	 */ 	
-	public CargoModuleModel() {
+	public CargoModuleModel(int type, String model, String organization) {
+		super(type, model, organization);
+
 	}
 
 }

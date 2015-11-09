@@ -1,6 +1,6 @@
 package marsmission;
 
-public class SRBModel {
+public class LaunchVehicleStageAdapterModel {
 	/*
 	 * Class Instance Variables
 	 * 
@@ -12,11 +12,9 @@ public class SRBModel {
 	 */
 	
 	/*
-	 * Construcutors
-	 * 
-	 */
-	public SRBModel() {
-
+	 * Constructor
+	 */ 	
+	public LaunchVehicleStageAdapterModel() {
 	}
 
 }

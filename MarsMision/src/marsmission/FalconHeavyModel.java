@@ -14,7 +14,8 @@ public class FalconHeavyModel extends MainEngineModel {
 	/*
 	 * Constructor
 	 */ 	
-	public FalconHeavyModel() {
+	public FalconHeavyModel(int type, String model, String organization) {
+		super(type, model, organization);
 	}
 
 }

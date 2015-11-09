@@ -14,8 +14,8 @@ public class FalconStage2EngineModel extends Stage2EngineModel {
 	/*
 	 * Constructor
 	 */ 	
-	public FalconStage2EngineModel() {
-
+	public FalconStage2EngineModel(int type, String model, String organization) {
+		super(type, model, organization);
 	}
 
 }

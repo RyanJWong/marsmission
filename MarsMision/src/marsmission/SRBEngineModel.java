@@ -1,6 +1,6 @@
 package marsmission;
 
-public class MainEngineModel extends EngineModel { 
+public class SRBEngineModel extends Stage2EngineModel {
 	/*
 	 * Class Instance Variables
 	 * 
@@ -10,13 +10,13 @@ public class MainEngineModel extends EngineModel {
 	 * Class Constants
 	 * 
 	 */
-	public static final String MAIN_ENGINE = "Main Engine";
+	public static final String SRB 		= "SRB";
+
 	/*
 	 * Construcutors
 	 * 
 	 */
-	public MainEngineModel(int type, String model, String organization) {
+	public SRBEngineModel(int type, String model, String organization) {
 		super(type, model, organization);
 	}
-
 }
